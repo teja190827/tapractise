@@ -1,4 +1,4 @@
-#Create Resourse group & Storage
+reate Resourse group & Storage
 provider "azurerm" {
 	subscription_id = "541e2514-a47e-4de1-999f-9ac977171cac"
 	client_id       = "48906cb6-3310-4089-ae5b-3035e11b00a2"
@@ -8,8 +8,7 @@ provider "azurerm" {
 	}
 
 resource "azurerm_resource_group" "example" {
-  name     = "Teja_RG"
-  location = "West Europe"
+
 }
 
 resource "azurerm_storage_account" "example" {
